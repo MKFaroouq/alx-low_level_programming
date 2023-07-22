@@ -4,6 +4,8 @@
  * print_number - func prints an intger .
  *
  * @n: The ineger to be printed.
+ *
+ * Return:Always 0
  */
 
 void print_number (int n )
@@ -19,8 +21,9 @@ void print_number (int n )
 	
 	/*print the first few digits*/
 	if ((num / 10) > 0 )
+	{
 		print_number(num / 10);
-
+	}
 	/*print the last digits*/
 	_putchar((num % 10 ) + '0');
 }	
