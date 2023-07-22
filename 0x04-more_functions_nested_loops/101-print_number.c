@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
- * print_number - prints an intger .
+ * print_number - func prints an intger .
  *
  * @n: The ineger to be printed.
  *
-*/
+ */
 
 void print_number (int n )
 {
@@ -18,7 +19,7 @@ void print_number (int n )
 	}
 	
 	/*print the first few digits*/
-	if ((bum / 10) > 0 )
+	if ((num / 10) > 0 )
 		print_number(num/10);
 
 	/*print the last digits*/
