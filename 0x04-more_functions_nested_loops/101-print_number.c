@@ -21,4 +21,4 @@ void print_number (int n )
 		print_number(num/10);
 
 	/*print the last digits*/
-	_putchar((num % 10 ) + 48 );	
+	_putchar((num % 10 ) + '0');	
