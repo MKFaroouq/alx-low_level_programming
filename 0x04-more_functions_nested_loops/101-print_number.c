@@ -2,7 +2,7 @@
 /**
  * print_number - prints an intger .
  *
- * On: The ineger to be printed.
+ * @n: The ineger to be printed.
  *
 */
 
