@@ -7,6 +7,7 @@
 */
 
 void print_number (int n )
+{
 	unsigned int num = n;
 
 	/*first check if its negative*/
@@ -21,4 +22,5 @@ void print_number (int n )
 		print_number(num/10);
 
 	/*print the last digits*/
-	_putchar((num % 10 ) + '0');	
+	_putchar((num % 10 ) + '0');
+}	
