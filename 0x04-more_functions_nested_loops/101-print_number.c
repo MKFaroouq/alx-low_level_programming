@@ -4,7 +4,6 @@
  * print_number - func prints an intger .
  *
  * @n: The ineger to be printed.
- *
  */
 
 void print_number (int n )
