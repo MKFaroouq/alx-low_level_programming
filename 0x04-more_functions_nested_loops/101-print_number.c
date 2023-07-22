@@ -1,13 +1,11 @@
 #include "main.h"
-
 /**
- * print_number - func prints an intger .
+ * print_number -  prints an intger .
  *
- * @n: The ineger to be printed.
+ * @n: .input integer parameter
  *
  *Return:Always 0
  */
-
 void print_number (int n )
 {
 	unsigned int i = n;
