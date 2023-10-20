@@ -29,4 +29,13 @@ list_t *add_node_end(list_t **head, const char *str)
 		*head = ptr;
 	else
 	{
+		end = *head;
+		while (end->next)
+		{
+			end = end->next;
+		}
+		end->next = ptr;
+	}
 
+	return (*head);
+}
